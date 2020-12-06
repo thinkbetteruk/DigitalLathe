@@ -42,7 +42,7 @@
 #define UMM_PER_STEP (UMM_PER_REVOLUTION / STEPS_PER_REVOLUTION)
 
 // initialize the stepper library on pins 8 through 11:
-Stepper myStepper(STEPS_PER_REVOLUTION, 8, 9, 10, 11);
+Stepper myStepper(STEPS_PER_REVOLUTION, 9, 10);
 
 /* Initialise the display */
 DisplaySSD1306_128x64_I2C display(-1); // This line is suitable for most platforms by default
